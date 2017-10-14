@@ -2,10 +2,7 @@
 
 body{
 	overflow:hidden;
-	background-image: url(../../../../images/background.jpg);
 	background-color:#fcfcfc;
-	background-position: center center;
-	background-size: cover;
 	margin:0;
 	padding:0;
 }
@@ -24,15 +21,15 @@ body{
 }
 
 .flipbook-viewport .flipbook{
-	width:1200px;
-	height:650px;
-	left:-600px;
-	top:-325px;
+	width:800px;
+	height:400px;
+	left:-400px;
+	top:-200px;
 }
 
 .flipbook-viewport .page{
-	width:600px;
-	height:650px;
+	width:400px;
+	height:400px;
 	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -66,45 +63,11 @@ body{
 	-moz-box-shadow:0 0 20px #ccc;
 	-o-box-shadow:0 0 20px #ccc;
 	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #252525;
+	box-shadow:0 0 20px #ccc;
 }
 
 .flipbook-viewport .double{
-	width:1200px;
-	height:650px;
+	width:800px;
+	height:400px;
 	background-size:100% 100%;
-}
-
-/* ----- ALLT NEDANFÖR DENNA RAD ÄR ALBERT OCH OSKARS KOD ----- */
-
-.p1-main-container {
-	width: 100%;
-	height: 100%;
-	background-color: #c23132;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	flex-direction: column;
-}
-
-.p1-col-50 {
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-
-}
-
-.p1-main-container h1 {
-	margin: 20px;
-	font-family: 'Amatic SC', cursive;
-	font-size: 70px;
-}
-
-h2 {
-font-family: 'Lato', sans-serif;
-color: white;
-font-weight: 100;
 }
