@@ -137,15 +137,7 @@ font-weight: 300;
 	text-align: center;
 }
 
-.p3-container {
-width: 200%;
-height: 100%;
-position: absolute;
-flex-direction: row;
-display: flex;
-}
-
-.p4-container {
+.p-container {
 width: 200%;
 height: 100%;
 position: absolute;
