@@ -104,15 +104,15 @@ body{
 }
 
 h2 {
-font-family: 'Lato', sans-serif;
+font-family: 'Open sans', sans-serif;
 color: white;
 font-weight: 100;
 }
 
 p {
-font-family: 'Lato', sans-serif;
-color: white;
-font-weight: 400;
+font-family: 'Open sans', sans-serif;
+color: black;
+font-weight: 300;
 }
 
 
@@ -134,10 +134,11 @@ display: flex;
 }
 
 .one-page p {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.8);
 	width: 90%;
 	justify-content: center;
 	padding: 10px;
-	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.9);
 	border-radius: 8px;
+	text-align: center;
 }
