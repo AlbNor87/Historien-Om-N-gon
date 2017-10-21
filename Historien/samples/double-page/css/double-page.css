@@ -103,6 +103,13 @@ body{
 	font-size: 70px;
 }
 
+.p-container {
+width: 200%;
+height: 100%;
+position: absolute;
+display: flex;
+}
+
 h2 {
 font-family: 'Open sans', sans-serif;
 color: white;
@@ -115,7 +122,13 @@ color: black;
 font-weight: 300;
 }
 
+.text-align-bottom {
+	align-items: flex-end;
+}
 
+.text-align-top {
+	align-items: flex-start;
+}
 
 .one-page {
 	width: 100%;
@@ -123,8 +136,6 @@ font-weight: 300;
 	flex-direction: row;
 	display: flex;
 	justify-content: center;
-	align-content: center;
-	align-items: flex-end;
 }
 
 .one-page p {
@@ -135,12 +146,5 @@ font-weight: 300;
 	text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.9);
 	border-radius: 8px;
 	text-align: center;
-}
 
-.p-container {
-width: 200%;
-height: 100%;
-position: absolute;
-flex-direction: row;
-display: flex;
 }
