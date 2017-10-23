@@ -364,3 +364,10 @@ flex-direction: column-reverse;
 display: flex;
 flex-direction: column;
 }
+.small {
+ width: 50%;
+}
+.left {
+  margin-left: 1.2vw;
+  margin-right: auto;
+}
