@@ -331,7 +331,7 @@ h4 {
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
   .turn-your-device {
