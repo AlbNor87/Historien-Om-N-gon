@@ -371,3 +371,6 @@ flex-direction: column;
   margin-left: 1.2vw;
   margin-right: auto;
 }
+.spread {
+  justify-content: space-between;
+}
